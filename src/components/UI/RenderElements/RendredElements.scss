@@ -1,0 +1,45 @@
+.blocks_for {
+  padding-left: 45px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  &__img {
+    width: 540px;
+    height: 230px;
+    object-fit: cover;
+    margin-top: 30px;
+  }
+
+  &__text {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.28px;
+    font-family: Roboto, sans-serif;
+    margin-top: 30px;
+    max-width: 578px;
+    line-height: 150%;
+    color: #97AACD;
+  }
+
+  &__button {
+    margin: 30px auto;
+    border-radius: 4px;
+    background: #4368E0;
+    font-size: 14px;
+    width: 145px;
+    height: 40px;
+    font-weight: 500;
+    color: #F6F9FE;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+  }
+
+  &__headline {
+    display: block;
+    text-align: center;
+    color: #252A32;
+    font-family: Roboto, sans-serif;
+    margin: 30px auto 0 auto;
+  }
+}
