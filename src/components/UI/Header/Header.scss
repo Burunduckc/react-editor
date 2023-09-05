@@ -1,0 +1,13 @@
+.header{
+  &-text{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    letter-spacing: 0.36px;
+    padding-left: 31px;
+    margin: 22px 0;
+    color: #252A32;
+  }
+}

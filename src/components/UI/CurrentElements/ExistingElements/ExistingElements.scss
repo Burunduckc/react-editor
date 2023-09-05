@@ -1,0 +1,23 @@
+.active {
+  color: aqua;
+}
+
+.existing-block {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.existing-block_box {
+  width: 470px;
+  height: 80px;
+  background: #fff;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 7px;
+  &__text {
+    text-align: center;
+  }
+  &__img{
+    margin-top: 15px;
+  }
+}
