@@ -11,7 +11,7 @@ import iconPar from '../../../../assets/Icons-1.svg'
 import './BlockOfElements.scss'
 
 //IP
-interface elementsIP {
+export interface elementsIP {
     name: string,
     src: string,
     id: number,

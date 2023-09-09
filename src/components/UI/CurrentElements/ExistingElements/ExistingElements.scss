@@ -1,23 +1,70 @@
-.active {
-  background: #D9E7FF;
-}
 
 .existing-block {
   padding-left: 30px;
   padding-right: 30px;
+  position: relative;
+
+  &_box {
+    width: 478px;
+    height: 83px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 7px;
+    background: #fff;
+
+    &__text {
+      text-align: center;
+    }
+
+    &__img {
+      margin-top: 15px;
+    }
+  }
+
+  &__tool {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    top: -20px;
+
+    &-arrow {
+      width: 26px;
+      height: 27px;
+      background: #449CF4;
+      text-align: center;
+    }
+
+    &-copy {
+      background: #68C2E9;
+      width: 26px;
+      height: 27px;
+
+      &-background {
+        background: #4B97B8;
+        width: 15px;
+        height: 15px;
+        border: 3px;
+        margin-top: 5px;
+        margin-left: 5px;
+      }
+    }
+
+    &-delete {
+      background: #68C2E9;
+    }
+
+    &-manager {
+      display: flex;
+      margin-right: 5px;
+
+    }
+    &-actions{
+      display: flex;
+    }
+  }
 }
 
-.existing-block_box {
-  width: 478px;
-  height: 83px;
-  background: #fff;
-  margin-bottom: 15px;
-  text-align: center;
-  border-radius: 7px;
-  &__text {
-    text-align: center;
-  }
-  &__img{
-    margin-top: 15px;
-  }
+.active {
+  background: #D9E7FF;
 }
+
